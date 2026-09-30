@@ -3,21 +3,23 @@ COM121, Task app manager development
 # Feature Updates: POS System
 # Feature Updates: POS System
 
-**Name:** Williams Fadejimi Eniola
-**Matric No:** F/ND/25/3210016
+**Name:** OMOSANYA ABIBAT FOLADARA
+**Matric No:** F/ND/25/3210213
 
-## Feature 1: Purchase Order Creation and Approval Workflow
-- **Description:** A system that lets staff create purchase orders for vendors directly from the POS, with a built-in approval step before the order is sent.
-- **Key Functionality:**
-  - Staff can generate a purchase order listing products, quantities, and vendor details.
-  - Orders above a set value require manager approval before being sent.
-  - Approved orders are automatically forwarded to the vendor.
-  - **Relevance:** Prevents unauthorized or excessive ordering, and keeps a clear record of who approved each purchase.
+# Feature Updates: POS and Vendor Relations
 
-## Feature 2: Delivery Performance Tracking
-- **Description:** A tool that measures how reliably each vendor delivers goods, based on order and delivery records already in the system.
+## Feature 1: Low-Stock Alerts
+- **Description:** This feature monitors the quantity of products in the inventory and alerts the user when the stock level becomes low.
 - **Key Functionality:**
-  - Tracks on-time delivery rate per vendor.
-  - Logs defect or damage rate for goods received.
-  - Flags vendors whose performance drops below an acceptable standard.
-  - **Relevance:** Helps the business identify dependable vendors and address recurring delivery issues.
+  - Checks available stock levels.
+  - Sends alerts when products reach the minimum stock level.
+  - Helps the business know when to restock products.
+  - Reduces the risk of running out of important products.
+
+## Feature 2: Purchase Order Creation and Approval Workflow
+- **Description:** This feature allows the business to create purchase orders for vendors and have them approved before the order is sent.
+- **Key Functionality:**
+  - Creates purchase orders for needed products.
+  - Records vendor and product details.
+  - Allows managers to review and approve orders.
+  - Helps organize and track purchases from vendors.
