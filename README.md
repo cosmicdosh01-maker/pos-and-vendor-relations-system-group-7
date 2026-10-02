@@ -2,35 +2,96 @@
 COM121, Task app manager development
 # Feature Updates: POS System
 
-# Feature Updates: POS System
+**Name:** Adebayo Adebimpe Latifat
+**Matric No:** F/ND/25/3210362
 
-**Name:** Awoniyi Nasrulahi  
-**Matric No:** F/ND/25/3210240
+ # 1. Discounts, Promotions & Pricing Rules
 
-## Feature 1: Purchase Order and Inventory Management
+## Description
 
-- **Description:** This feature allows a POS system to create and manage purchase orders when products need to be purchased from vendors. It also helps the business monitor stock levels and receive new inventory from suppliers.
+Lets the business define price reductions and offers (percentage or fixed discounts, buy-X-get-Y, bundle prices, time-limited promotions) and applies them at checkout under permission controls.
 
-- **Key Functionality:**
-  - Create purchase orders for vendors.
-  - Add products, quantities, prices, and expected delivery dates.
-  - Track the status of purchase orders.
-  - Receive stock when the vendor delivers the products.
-  - Automatically update inventory after new stock is received.
-  - Provide low-stock alerts to help the business know when to reorder.
-  - Keep purchase records for future reference.
-  - **Relevance:** This feature helps the POS system maintain accurate stock levels and reduces the risk of running out of products. It also connects purchasing activities with inventory management. Real POS systems such as Shopify and Lightspeed provide purchase-order and inventory-management functions. (Shopify)
+## Purpose
 
-## Feature 2: Vendor Management and Performance Tracking
+Promotions drive sales, but manual discounting leads to inconsistent prices, margin loss and staff abuse. This feature applies approved offers consistently and limits who can override prices.
 
-- **Description:** This feature allows a business to store and manage information about its vendors and monitor its relationship with them. The system can keep vendor contact details, prices, order history, payment information, and delivery records.
+## How It Works
 
-- **Key Functionality:**
-  - Create and manage vendor profiles.
-  - Store vendor contact information and payment terms.
-  - Keep records of previous orders and transactions.
-  - Compare vendor prices and purchasing terms.
-  - Track vendor delivery history and performance.
-  - Record vendor payments and outstanding balances.
-  - Keep notes and important information about each vendor.
-  - **Relevance:** Vendor management helps the business maintain organized supplier records and make better purchasing decisions. It also makes it easier to monitor vendor performance and keep track of orders and payments. Square and Zoho Inventory, for example, provide vendor-related information and transaction-management features. (Square)
+1. A manager creates a promotion with its type, products or categories, start and end dates.
+2. At checkout, eligible items trigger the rule automatically, or the cashier enters a manual discount within their allowed limit.
+3. Discounts above the cashier's limit need manager approval.
+4. The discount amount and reason are saved with the transaction.
+5. The promotion expires automatically on its end date.
+
+## Information Required
+
+- Promotion rules, dates and eligible products/categories
+- Product cost and minimum acceptable margin
+- Discount limits per user role
+- Coupon or voucher codes (if used)
+
+## Output / Action
+
+- Adjusted prices on the sale
+- Logged discount amount and approving user
+- Data for promotion performance and margin reports
+
+## Benefits
+
+- Consistent pricing across cashiers and locations
+- Protects margins by capping discounts and requiring approvals
+- Makes it possible to measure which promotions actually worked
+
+## Limitations / Dependencies
+
+- Needs cost data from the product catalog to protect margins
+- Overlapping promotions need clear priority rules to avoid double discounts
+- Vendor-funded promotions depend on agreed terms captured in vendor contracts
+
+
+
+ # 2. Vendor Profile & Master Database
+
+## Description
+
+A central record for every supplier the business buys from: contact people, addresses, payment terms, lead times, tax details, status, and linked products, purchase orders and contracts.
+
+## Purpose
+
+Supplier details kept in emails, notebooks and spreadsheets go out of date and are hard to find. A single vendor record gives everyone the same correct information and is the base for every other vendor feature.
+
+## How It Works
+
+1. A vendor record is created with business details, contacts and bank/payment terms.
+2. The vendor is given a status (active, inactive, on hold) that controls whether it appears when creating purchase orders.
+3. Products are linked to the vendor with its item codes and agreed cost prices.
+4. Custom categories (for example, "beverages" or "packaging") allow filtering and reporting.
+5. The record shows the vendor's purchase orders, contracts, invoices and performance in one place.
+
+## Information Required
+
+- Legal and trading name, address, and country
+- Contact persons and communication details
+- Payment terms, currency, and lead time
+- Tax or registration details
+- Linked products and cost prices
+- Vendor status and category
+
+## Output / Action
+
+- A searchable vendor directory
+- Default payment terms and lead times applied to new purchase orders
+- Filtered vendor lists for reporting and review
+
+## Benefits
+
+- One reliable source of supplier information
+- Faster purchase order creation using stored defaults
+- Easier supplier comparison and reporting by category
+
+## Limitations / Dependencies
+
+- Needs initial data entry and regular clean-up
+- Duplicate vendor records must be prevented
+- Bank and payment details need restricted access (see *Employee Roles & Permissions*)
+
