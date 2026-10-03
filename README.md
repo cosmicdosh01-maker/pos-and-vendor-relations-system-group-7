@@ -42,12 +42,16 @@ The Module may use a combination of:
 
 ## Team
 Group 7 Module team:
-- Adebimpe
-- Blessing
-- Emmanuel-Toluwani
-- Nasrulahi
-- Opeyemi
-- Abibatfoladra
+- Odde Opeyemi Samuel (GROUP LEADER)
+- Salami Benjamin Boluwatife
+- Abibat Foladara
+- Abraham
+- Adebayo Adebimpe Latifat
+- Oladele David
+- Obioma Ugochukwu Emmanuel
+- Adeyemi Blessing Ademola
+- Williams Fadejimi Eniola
+- GodGlory
 
 ## Repository Purpose
 This repository contains the Module files and work related to the POS and vendor relations system for the assigned coursework.
