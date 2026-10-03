@@ -1,7 +1,7 @@
 # pos-and-vendor-relations-system-group-7
 A POS and vendor relations management system for COM121, Task App Manager Development.
 
-## Project Overview
+## Module Overview
 This project is designed to manage:
 - sales transactions
 - inventory flow
@@ -24,8 +24,8 @@ This project is designed to manage:
 - Reporting dashboard
 - User-friendly system flow
 
-## Project Scope
-This project focuses on managing business operations related to:
+## Module Scope
+This Module focuses on managing business operations related to:
 - sales
 - vendor coordination
 - product tracking
@@ -33,7 +33,7 @@ This project focuses on managing business operations related to:
 - operational reporting
 
 ## Technologies
-The project may use a combination of:
+The Module may use a combination of:
 - web application framework
 - database system
 - frontend interface
@@ -41,7 +41,7 @@ The project may use a combination of:
 - GitHub version control
 
 ## Team
-Group 7 project team:
+Group 7 Module team:
 - Adebimpe
 - Blessing
 - Emmanuel-Toluwani
@@ -50,7 +50,7 @@ Group 7 project team:
 - Abibatfoladra
 
 ## Repository Purpose
-This repository contains the project files and work related to the POS and vendor relations system for the assigned coursework.
+This repository contains the Module files and work related to the POS and vendor relations system for the assigned coursework.
 
 ## Status
 In progress
